@@ -1,0 +1,14 @@
+Configuration For RainLoop Development in Ubuntu 14.04
+
+1.clone repo in github
+
+2.install noude_modules for gulp building
+
+3.modify "navbar.less" at line 188 as follows:
+width: (@gridColumnWidth * @gridColumns) + (@gridGutterWidth * (@gridColumns - 1));
+//  #grid > .core > .span(@gridColumns);
+
+4.in the repo directory gulp build
+gulp
+
+5.visit rainloop in localhost browse.
